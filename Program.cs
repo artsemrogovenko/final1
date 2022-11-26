@@ -20,6 +20,7 @@ string[] ReadConsole()
 string[] str = ReadConsole();
 string[] result = GetStrings(str);
 Console.WriteLine(String.Join(",",str));
+Console.WriteLine("Программа формирует массив из строк, длинна которых меньше либо равна 3 символа");
 Console.WriteLine(String.Join(",",result));
 
 string[] GetStrings (string[] input){
